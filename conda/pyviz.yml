@@ -1,0 +1,7 @@
+name: pyviz
+channels:
+  - pyviz
+dependencies:
+  - pyviz
+  - python=3.6
+  - ipykernel
