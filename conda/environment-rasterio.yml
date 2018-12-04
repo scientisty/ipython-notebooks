@@ -1,0 +1,7 @@
+name: rasterio
+channels:
+  - conda-forge
+dependencies:
+  - rasterio
+  - python=3
+  - ipykernel
