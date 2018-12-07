@@ -1,5 +1,5 @@
 # An environment for working with geospatial data in Python.
-name: geospatial-forge
+name: geospatial
 channels:
   - conda-forge
 dependencies:
