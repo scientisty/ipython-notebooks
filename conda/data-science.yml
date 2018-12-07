@@ -1,0 +1,8 @@
+# My evolving data science stack.
+name: data-science
+channels:
+  - conda-forge
+dependencies:
+  - altair  # not available in default channels
+  - ipykernel
+  
