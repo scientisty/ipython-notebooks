@@ -1,0 +1,10 @@
+# Latest rasterio from conda-forge.
+# For some time the anaconda defaults and conda-forge main/default channel only had rasterio 0.36, and rastero 1.0+ was only available in conda-forge/label/dev channel.
+# Now the main conda-forge channel has the newer version.
+name: rasterio-forge
+channels:
+  - conda-forge
+dependencies:
+  - rasterio
+  - python=3
+  - ipykernel

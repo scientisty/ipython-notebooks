@@ -1,0 +1,6 @@
+# Test env to see what gets installed as deps of the anaconda package.
+# Note: additional packages get intalled in the base env by default.
+name: anaconda
+dependencies:
+  - anaconda
+

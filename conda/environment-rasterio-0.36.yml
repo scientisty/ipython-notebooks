@@ -1,0 +1,7 @@
+# Previous version of rasterio from default anaconda channels.
+# Note: the conda-forge version may be more stable.
+name: rasterio-0.36
+dependencies:
+  - rasterio=0.36
+  - python=3
+  - ipykernel

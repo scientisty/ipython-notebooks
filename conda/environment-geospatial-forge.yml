@@ -1,0 +1,12 @@
+# An environment for working with geospatial data in Python.
+name: geospatial-forge
+channels:
+  - conda-forge
+dependencies:
+  - fiona
+  - rasterio
+  - hyperspy
+  - spectral
+  - xarray
+  - python=3
+  - ipykernel

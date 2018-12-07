@@ -1,0 +1,7 @@
+name: google-api-forge
+channels:
+  - conda-forge
+dependencies:
+  - google-api-python-client
+  - python=3
+  - ipykernel

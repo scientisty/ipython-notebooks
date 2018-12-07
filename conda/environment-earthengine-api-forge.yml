@@ -1,0 +1,7 @@
+name: earthengine-api-forge
+channels:
+  - conda-forge
+dependencies:
+  - earthengine-api
+  - python=2
+  - ipykernel
