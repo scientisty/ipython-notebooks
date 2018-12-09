@@ -1,4 +1,4 @@
-name: earthengine-api-forge
+name: earthengine-api
 channels:
   - conda-forge
 dependencies:
