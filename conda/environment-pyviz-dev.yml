@@ -1,8 +1,0 @@
-# Install pyviz from the dev label, as http://pyviz.org/installation.html
-name: pyviz-dev
-channels:
-  - pyviz/label/dev
-dependencies:
-  - pyviz
-  - python=3
-  - ipykernel
