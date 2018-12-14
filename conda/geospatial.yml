@@ -2,6 +2,7 @@
 name: geospatial
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - fiona
   - rasterio
