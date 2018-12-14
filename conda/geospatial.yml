@@ -6,9 +6,9 @@ channels:
 dependencies:
   - fiona
   - rasterio
-  - hyperspy
-  - spectral
   - xarray
-  - python=3
+  - spectral
+  - hyperspy
   - numpy      # Unless listed explicitely, may be installed from defaults with mlk, and mkl versions of scipy and scikit-learn also from defaults.
+  - python=3
   - ipykernel
