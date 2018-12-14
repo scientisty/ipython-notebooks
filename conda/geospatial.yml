@@ -9,4 +9,5 @@ dependencies:
   - spectral
   - xarray
   - python=3
+  - numpy      # Unless listed explicitely, may be installed from defaults with mlk, and mkl versions of scipy and scikit-learn also from defaults.
   - ipykernel
