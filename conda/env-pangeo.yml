@@ -1,0 +1,11 @@
+name: pangeo
+channels:
+  - conda-forge
+dependencies:
+  - dask
+  - distributed
+  - xarray
+  - mpi4py
+  - dask-jobqueue
+  - python=3.6
+  - ipykernel  # instead of jupyterlab
