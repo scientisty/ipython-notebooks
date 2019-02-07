@@ -1,8 +1,8 @@
 # An environment for working with geospatial data in Python.
 name: geospatial
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
   - fiona
   - rasterio
@@ -12,4 +12,4 @@ dependencies:
   - python=3
   - ipykernel
   # Specify blas build to use conda-forge openblas, otherwise defaults mkl build is used, along with defaults numpy, scipy, etc.
-  - blas=*=openblas
+  # - conda-forge::blas=*=openblas
