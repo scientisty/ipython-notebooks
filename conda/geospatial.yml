@@ -1,4 +1,6 @@
 # An environment for working with geospatial data in Python.
+# Create environment by:
+#   $ conda env create -f geospatial.yml
 name: geospatial
 channels:
   - defaults
@@ -9,9 +11,10 @@ dependencies:
   - rasterio
   - xarray
   - netcdf4  # Supports xarray.
-  - metpy  # Supports xarray.
-  - spectral
-  - hyperspy
+  - metpy    # Supports xarray.
+  - pydap    # Supportx xarray.
+  # - spectral
+  # - hyperspy
   - python=3
   - ipykernel
   # Specify blas build to use conda-forge openblas, otherwise defaults mkl build is used, along with defaults numpy, scipy, etc.
